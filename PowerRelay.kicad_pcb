@@ -1550,6 +1550,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask) (tstamp adcccd0e-f5ea-4c83-bd8f-8b220d307709))
   )
 
+  (gr_rect (start 96 52) (end 104 55) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp 616d2ae0-660e-4201-aead-18acef1aaa51))
   (gr_rect (start 50 50) (end 150 150) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 546a1a00-359c-49dd-9dc7-00ba365c27fb))
   (gr_text "-" (at 95 148.25) (layer "F.SilkS") (tstamp 4d7add0f-202e-4ebc-af10-32599043b4cd)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -1577,6 +1578,9 @@
   )
   (gr_text "+" (at 100 148.25) (layer "F.SilkS") (tstamp ef1a5dd0-ce55-4f4f-a70f-4398606c8c94)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (gr_text "put wire connector here move pico back to accomidate" (at 100 53) (layer "Dwgs.User") (tstamp 25c3edd1-654a-424f-b192-1d4ebd3105bd)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
 
   (segment (start 59.725 85.6125) (end 59.725 85) (width 1) (layer "F.Cu") (net 1) (tstamp 0577a48d-8ffb-4da7-8a00-df74fc4e3887))
