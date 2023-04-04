@@ -1,0 +1,18 @@
+.1760520000 :1 ;Printed circuit board terminals, 5.08 mm, Number of poles: 3, 90, Solder pin length: 3.5 mm, tinned, black, Pressure clamp connection, Clamping range, max. [rated connection]: 2.5 mm, Box
+"1760520000"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 1760520000
+~!Manufacturer_Name (Weidmuller)
+~!Manufacturer_Part_Number (1760520000)
+~!Mouser Part Number (470-1760520000)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Weidmuller/1760520000?qs=BTG2th8YmhQ9%2FSREmUUfQg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://catalog.weidmueller.com/createDatasheetForMobile.do?ordernumber=1760520000&scope1=1&scope2=1&localeId=en)
+~!Height (10mm)
+~!3D_Model (1760520000)
+"1760520000"
+1.1!U 2.1!U 3.1!U 

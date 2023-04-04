@@ -1,0 +1,18 @@
+.38312000000 :1 ;Fuses with Leads (Through Hole) 300V UL TL TR5 LL 2A
+"38312000000"
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 38312000000
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (38312000000)
+~!Mouser Part Number (576-38312000000)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=576-38312000000)
+~!Arrow Part Number (38312000000)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/38312000000/littelfuse)
+~!Link Datasheet (https://ms.componentsearchengine.com/Datasheets/2/38312000000.pdf)
+~!Height (8mm)
+~!3D_Model (38312000000)
+"38312000000"
+1.1!U 2.1!U 

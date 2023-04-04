@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=BS270
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=2.2
+Released=2018-12-15 20:32:50
+Downloaded=2023-03-02 00:23:56
+3D=N

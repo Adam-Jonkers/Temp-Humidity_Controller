@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_952096"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-07-15:12:45)
+    (utime 2022-04-19-15:19:28)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "38312000000")
+)
+
+
+(pinAssign "ECS_952096"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-07-15:12:45)
+    (utime 2022-04-19-15:19:28)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_952096")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "38312000000")
+)
+
+
+(part "38312000000"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-07-15:12:45)
+    (utime 2022-04-19-15:19:28)
+    (packageRef "38312000000")
+    (pinAssignRef "ECS_952096")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "F")
+    (property "description" "Fuses with Leads (Through Hole) 300V UL TL TR5 LL 2A")
+    (property "Manufacturer_Name" "LITTELFUSE")
+    (property "Manufacturer_Part_Number" "38312000000")
+    (property "Mouser_Part_Number" "576-38312000000")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=576-38312000000")
+    (property "Arrow_Part_Number" "38312000000")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/38312000000/littelfuse")
+    (property "Datasheet_Link" "https://ms.componentsearchengine.com/Datasheets/2/38312000000.pdf")
+    (property "compAreaTopHeight" 8)
+)
+
+

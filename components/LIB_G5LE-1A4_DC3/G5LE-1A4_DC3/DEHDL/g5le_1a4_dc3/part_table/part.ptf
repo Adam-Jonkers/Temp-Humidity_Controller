@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'G5LE_1A4_DC3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Omron Electronics", "G5LE-1A4 DC3" (!) = "", "G5LE1A4DC3", "Other", "653-G5LE-1A4DC3", "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G5LE-1A4-DC3?qs=wkx8pu8tL7IvWkjKUXxpCQ%3D%3D", "", "", "General Purpose Relays Power PCB Relay", "http://www.omron.com/ecb/products/pdf/en-g5le.pdf", "19 mm"
+END_PART
+
+END.

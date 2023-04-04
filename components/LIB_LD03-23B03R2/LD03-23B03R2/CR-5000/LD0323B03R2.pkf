@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LD0323B03R2"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LD0323B03R2")
+        (spec "default")
+    )
+)

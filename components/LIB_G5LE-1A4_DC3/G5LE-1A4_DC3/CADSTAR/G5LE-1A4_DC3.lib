@@ -1,0 +1,18 @@
+.G5LE-1A4_DC3 :1 ;General Purpose Relays Power PCB Relay
+G5LE1A4DC3
+*STM K
+*NGS
+*PLB 1="COM" 2="COIL_1" 3="NO" 5="COIL_2"
+*MXP 4
+*DFN G5LE-1A4_DC3
+~!Manufacturer_Name (Omron Electronics)
+~!Manufacturer_Part_Number (G5LE-1A4 DC3)
+~!Mouser Part Number (653-G5LE-1A4DC3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G5LE-1A4-DC3?qs=wkx8pu8tL7IvWkjKUXxpCQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.omron.com/ecb/products/pdf/en-g5le.pdf)
+~!Height (19mm)
+~!3D_Model (G5LE-1A4_DC3)
+G5LE-1A4_DC3
+1.1!U 2.1!U 3.1!U 5.1!U 

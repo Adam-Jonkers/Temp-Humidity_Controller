@@ -1,0 +1,9 @@
+Manufacturer=Mornsun Power
+PartNumber=LD03-23B03R2
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2022-03-26 09:37:25
+Downloaded=2023-02-28 20:33:20
+3D=Y

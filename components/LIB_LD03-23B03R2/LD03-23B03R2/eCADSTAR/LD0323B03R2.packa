@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LD03-23B03R2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-26-09:37:25)
+    (mountForm default
+        (footprintRef "LD0323B03R2")
+        (spec "System")
+    )
+)

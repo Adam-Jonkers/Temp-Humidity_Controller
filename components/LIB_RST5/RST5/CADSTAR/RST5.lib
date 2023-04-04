@@ -1,0 +1,18 @@
+.RST5 :1 ;Fuses with Leads (Through Hole)
+RST5
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RST5
+~!Manufacturer_Name (Bel)
+~!Manufacturer_Part_Number (RST5)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA14/1254897.pdf)
+~!Height (7.9mm)
+~!3D_Model (RST5)
+RST5
+1.1!U 2.1!U 

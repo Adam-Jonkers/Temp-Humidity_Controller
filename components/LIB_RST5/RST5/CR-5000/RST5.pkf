@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RST5"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RST5")
+        (spec "default")
+    )
+)

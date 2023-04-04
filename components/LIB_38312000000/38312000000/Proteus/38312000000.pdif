@@ -1,0 +1,103 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "38312000000"
+   (description "Fuses with Leads (Through Hole) 300V UL TL TR5 LL 2A")
+   (family "FUS")
+   (package "38312000000")
+   (attribute "Datasheet Link" "https://ms.componentsearchengine.com/Datasheets/2/38312000000.pdf")
+   (attribute "Geometry.Height" "8mm")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "38312000000")
+   (attribute "Mouser Part Number" "576-38312000000")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=576-38312000000")
+   (attribute "Arrow Part Number" "38312000000")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/38312000000/littelfuse")
+   (gate
+    (symbol "38312000000")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "38312000000"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 500 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "38312000000"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.71 5.25)
+      (pt 7.79 5.25)
+      (pt 7.79 -5.25)
+      (pt -2.71 -5.25)
+      (pt -2.71 5.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.71 0)
+      (arc (pt -1.710 0.000) (pt -1.710 -4.250) (pt 6.790 4.250) (start 180.0) (sweep 180.0))
+      (pt 6.79 0)
+      (arc (pt 6.790 0.000) (pt -1.710 -4.250) (pt 6.790 4.250) (start 180.0) (sweep .0))
+      (pt -1.71 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.71 0)
+      (arc (pt -1.710 0.000) (pt -1.710 -4.250) (pt 6.790 4.250) (start 180.0) (sweep 180.0))
+      (pt 6.79 0)
+      (arc (pt 6.790 0.000) (pt -1.710 -4.250) (pt 6.790 4.250) (start 180.0) (sweep .0))
+      (pt -1.71 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "38312000000.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

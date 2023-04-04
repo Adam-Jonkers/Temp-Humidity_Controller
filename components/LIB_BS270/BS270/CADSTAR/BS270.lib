@@ -1,0 +1,17 @@
+.BS270 :1 ;ON Semiconductor BS270 N-channel MOSFET, 400 mA, 60 V, 3-Pin TO-92
+BS270
+*STM Q
+*NGS
+*PLB 1="D" 2="G" 3="S"
+*MXP 3
+*DFN BS270
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (BS270)
+~!Mouser Part Number (512-BS270)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/BS270?qs=mdiO5HdF0KgJ7MEJoJK3sA%3D%3D)
+~!Arrow Part Number (BS270)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/bs270/on-semiconductor?region=nac)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/BS270-D.PDF)
+~!Height (-)
+BS270
+1.1!U 2.1!U 3.1!U 

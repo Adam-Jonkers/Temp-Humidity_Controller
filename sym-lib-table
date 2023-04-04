@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "LD03-23B03R2")(type "Legacy")(uri "${KIPRJMOD}/components/LIB_LD03-23B03R2/LD03-23B03R2/KiCad/LD03-23B03R2.lib")(options "")(descr ""))
+  (lib (name "Raspberry_Pi_Pico_W_SC0918")(type "KiCad")(uri "${KIPRJMOD}/components/Raspberry_Pi_Pico_W_Kicad_Files-main/Raspberry_Pi_Pico_W_SC0918.kicad_sym")(options "")(descr ""))
+  (lib (name "G5LE-1A4_DC3")(type "Legacy")(uri "${KIPRJMOD}/components/LIB_G5LE-1A4_DC3/G5LE-1A4_DC3/KiCad/G5LE-1A4_DC3.lib")(options "")(descr ""))
+  (lib (name "RST5")(type "Legacy")(uri "${KIPRJMOD}/components/LIB_RST5/RST5/KiCad/RST5.lib")(options "")(descr ""))
+)

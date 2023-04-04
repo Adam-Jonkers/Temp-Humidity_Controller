@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LD03_23B03R2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mornsun Power", "LD03-23B03R2" (!) = "", "LD0323B03R2", "Other", "", "", "", "", "Enclosed AC DC Converters 1 Uitgang 3.3V - - - 900mA 85 ~ 305 VAC, 100 ~ 430 VDC Input", "https://www.mornsun-power.com/html/pdf/LD03-23B03R2.html", "18.1 mm"
+END_PART
+
+END.

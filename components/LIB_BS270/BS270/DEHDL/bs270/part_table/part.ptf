@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BS270'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "onsemi", "BS270" (!) = "", "BS270", "Other", "512-BS270", "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/BS270?qs=mdiO5HdF0KgJ7MEJoJK3sA%3D%3D", "BS270", "https://www.arrow.com/en/products/bs270/on-semiconductor?region=nac", "ON Semiconductor BS270 N-channel MOSFET, 400 mA, 60 V, 3-Pin TO-92", "https://www.onsemi.com/pub/Collateral/BS270-D.PDF"
+END_PART
+
+END.

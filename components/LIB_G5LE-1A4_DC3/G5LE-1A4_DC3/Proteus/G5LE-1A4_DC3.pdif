@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "G5LE-1A4_DC3"
+   (description "General Purpose Relays Power PCB Relay")
+   (family "RLY")
+   (package "G5LE1A4DC3")
+   (attribute "Datasheet Link" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf")
+   (attribute "Geometry.Height" "19mm")
+   (attribute "Manufacturer_Name" "Omron Electronics")
+   (attribute "Manufacturer_Part_Number" "G5LE-1A4 DC3")
+   (attribute "Mouser Part Number" "653-G5LE-1A4DC3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G5LE-1A4-DC3?qs=wkx8pu8tL7IvWkjKUXxpCQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "G5LE-1A4_DC3")
+    (pin "COM" 1 PS)
+    (pin "COIL_1" 2 PS)
+    (pin "NO" 3 PS)
+    (pin "COIL_2" 5 PS)
+   )
+  )
+  (symbol "G5LE-1A4_DC3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "G5LE1A4DC3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -10.825 8.25)
+      (pt 11.675 8.25)
+      (pt 11.675 -8.25)
+      (pt -10.825 -8.25)
+      (pt -10.825 8.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.825 8.25)
+      (pt 11.675 8.25)
+      (pt 11.675 -8.25)
+      (pt -10.825 -8.25)
+      (pt -10.825 8.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12.675 9.25)
+      (pt 12.675 9.25)
+      (pt 12.675 -9.25)
+      (pt -12.675 -9.25)
+      (pt -12.675 9.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -11.575 -0.1)
+      (arc (pt -11.575 -0.100) (pt -11.675 -0.100) (pt -11.475 0.100) (start -180.0) (sweep -90.0))
+      (pt -11.575 0.1)
+      (arc (pt -11.575 0.100) (pt -11.675 -0.100) (pt -11.475 0.100) (start -180.0) (sweep 90.0))
+      (pt -11.575 -0.1))))
+   (leg 1 (pt -8.275 0.000) (padstack 0))
+   (leg 2 (pt -6.275 6.000) (padstack 0))
+   (leg 3 (pt -6.275 -6.000) (padstack 0))
+   (leg 5 (pt 5.776 -6.000) (padstack 0))
+   (padstack 0
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (model "G5LE-1A4_DC3.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

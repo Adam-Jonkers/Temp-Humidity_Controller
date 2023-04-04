@@ -1,0 +1,18 @@
+.LD03-23B03R2 :1 ;Enclosed AC DC Converters 1 Uitgang 3.3V - - - 900mA 85 ~ 305 VAC, 100 ~ 430 VDC Input
+LD0323B03R2
+*STM PS
+*NGS
+*PLB 1="AC(N)" 2="AC(L)" 4="-VO" 5="+VO"
+*MXP 4
+*DFN LD03-23B03R2
+~!Manufacturer_Name (Mornsun Power)
+~!Manufacturer_Part_Number (LD03-23B03R2)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mornsun-power.com/html/pdf/LD03-23B03R2.html)
+~!Height (18.1mm)
+~!3D_Model (LD03-23B03R2)
+LD03-23B03R2
+1.1!U 2.1!U 4.1!U 5.1!U 

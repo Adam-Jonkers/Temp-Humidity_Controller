@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RST5"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-15-10:48:36)
+    (mountForm default
+        (footprintRef "RST5")
+        (spec "System")
+    )
+)

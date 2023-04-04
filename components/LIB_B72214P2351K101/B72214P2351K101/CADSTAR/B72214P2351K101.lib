@@ -1,0 +1,18 @@
+.B72214P2351K101 :1 ;Leaded Disk Varistors, Max. Operating Voltage [AC]=350Vrms, Max. Surge Current Imax(8/20us,1time)=6000A
+B72214P2351K101
+*STM RV
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B72214P2351K101
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B72214P2351K101)
+~!Mouser Part Number (871-B72214P2351K101)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72214P2351K101?qs=lGUynpphgXw50o1LqiJuSg%3D%3D)
+~!Arrow Part Number (B72214P2351K101)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/b72214p2351k101/epcos-tdk)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_advanced_mp_14mm.pdf)
+~!Height (20.5mm)
+~!3D_Model (B72214P2351K101)
+B72214P2351K101
+1.1!U 2.1!U 

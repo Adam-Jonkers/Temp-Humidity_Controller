@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '696105003002'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "696105003002" (!) = "", "696105003002", "Other", "710-696105003002", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/696105003002?qs=%252BEew9%252B0nqrBA0IZP%252B5K6Dw%3D%3D", "", "", "Fuse Block 10 A 250V 1 Circuit Cartridge Through Hole", "https://www.we-online.com/catalog/datasheet/696105003002.pdf", "11.6 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1760520000'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Weidmuller", "1760520000" (!) = "", "1760520000", "Other", "470-1760520000", "https://www.mouser.co.uk/ProductDetail/Weidmuller/1760520000?qs=BTG2th8YmhQ9%2FSREmUUfQg%3D%3D", "", "", "Printed circuit board terminals, 5.08 mm, Number of poles: 3, 90, Solder pin length: 3.5 mm, tinned, black, Pressure clamp connection, Clamping range, max. [rated connection]: 2.5 mm, Box", "http://catalog.weidmueller.com/createDatasheetForMobile.do?ordernumber=1760520000&scope1=1&scope2=1&localeId=en", "10 mm"
+END_PART
+
+END.

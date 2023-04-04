@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_259832"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-01-24-15:06:21)
+    (utime 2023-01-06-17:33:56)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "B72214P2351K101")
+)
+
+
+(pinAssign "ECS_259832"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-01-24-15:06:21)
+    (utime 2023-01-06-17:33:56)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_259832")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "B72214P2351K101")
+)
+
+
+(part "B72214P2351K101"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-01-24-15:06:21)
+    (utime 2023-01-06-17:33:56)
+    (packageRef "B72214P2351K101")
+    (pinAssignRef "ECS_259832")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "RV")
+    (property "description" "Leaded Disk Varistors, Max. Operating Voltage [AC]=350Vrms, Max. Surge Current Imax(8/20us,1time)=6000A")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "B72214P2351K101")
+    (property "Mouser_Part_Number" "871-B72214P2351K101")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72214P2351K101?qs=lGUynpphgXw50o1LqiJuSg%3D%3D")
+    (property "Arrow_Part_Number" "B72214P2351K101")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/b72214p2351k101/epcos-tdk")
+    (property "Datasheet_Link" "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_advanced_mp_14mm.pdf")
+    (property "compAreaTopHeight" 20.5)
+)
+
+

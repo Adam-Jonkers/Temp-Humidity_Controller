@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B72214P2351K101'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "B72214P2351K101" (!) = "", "B72214P2351K101", "Other", "871-B72214P2351K101", "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72214P2351K101?qs=lGUynpphgXw50o1LqiJuSg%3D%3D", "B72214P2351K101", "https://www.arrow.com/en/products/b72214p2351k101/epcos-tdk", "Leaded Disk Varistors, Max. Operating Voltage [AC]=350Vrms, Max. Surge Current Imax(8/20us,1time)=6000A", "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_advanced_mp_14mm.pdf", "20.5 mm"
+END_PART
+
+END.

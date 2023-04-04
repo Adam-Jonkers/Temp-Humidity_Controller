@@ -1,0 +1,119 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LD03-23B03R2"
+   (description "Enclosed AC DC Converters 1 Uitgang 3.3V - - - 900mA 85 ~ 305 VAC, 100 ~ 430 VDC Input")
+   (family "ANA")
+   (package "LD0323B03R2")
+   (attribute "Datasheet Link" "https://www.mornsun-power.com/html/pdf/LD03-23B03R2.html")
+   (attribute "Geometry.Height" "18.1mm")
+   (attribute "Manufacturer_Name" "Mornsun Power")
+   (attribute "Manufacturer_Part_Number" "LD03-23B03R2")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "LD03-23B03R2")
+    (pin "AC(N)" 1 PS)
+    (pin "AC(L)" 2 PS)
+    (pin "-VO" 4 PS)
+    (pin "+VO" 5 PS)
+   )
+  )
+  (symbol "LD03-23B03R2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LD0323B03R2"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.54 2.54)
+      (pt 22.86 2.54)
+      (pt 22.86 -22.86)
+      (pt -2.54 -22.86)
+      (pt -2.54 2.54))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.54 -23.86)
+      (pt 23.86 -23.86)
+      (pt 23.86 3.54)
+      (pt -3.54 3.54)
+      (pt -3.54 -23.86))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.54 -22.86)
+      (pt -2.54 2.54)
+      (pt 22.86 2.54)
+      (pt 22.86 -22.86)
+      (pt -2.54 -22.86)
+      (pt -2.44 -22.86))))
+   (leg 1 (pt 0.000 -0.000) (padstack 1))
+   (leg 2 (pt 0.000 -5.080) (padstack 0))
+   (leg 4 (pt 20.320 -10.160) (padstack 0))
+   (leg 5 (pt 20.320 -0.000) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (padstack 1
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (square 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (square 1.650))
+   )
+   (model "LD03-23B03R2.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

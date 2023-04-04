@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RST5
+D Fuses with Leads (Through Hole)
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA14/1254897.pdf
+$ENDCMP
+#
+#End Doc Library
