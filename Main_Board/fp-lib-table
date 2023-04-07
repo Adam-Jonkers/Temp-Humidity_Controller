@@ -14,5 +14,5 @@
   (lib (name "1")(type "KiCad")(uri "/home/adam/Desktop/Text books/Applied Engineering/1")(options "")(descr ""))
   (lib (name "KiCad7")(type "KiCad")(uri "${KIPRJMOD}/components/LIB_696105003002/696105003002/KiCad")(options "")(descr ""))
   (lib (name "54-00174")(type "KiCad")(uri "${KIPRJMOD}/components/Audio_Jack/54-00174.pretty")(options "")(descr ""))
-  (lib (name "PCB")(type "KiCad")(uri "${KIPRJMOD}/Logo/PCB")(options "")(descr ""))
+  (lib (name "PCB")(type "KiCad")(uri "${KIPRJMOD}/../Logo/PCB")(options "")(descr ""))
 )
