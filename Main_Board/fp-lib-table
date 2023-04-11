@@ -15,4 +15,5 @@
   (lib (name "KiCad7")(type "KiCad")(uri "${KIPRJMOD}/components/LIB_696105003002/696105003002/KiCad")(options "")(descr ""))
   (lib (name "54-00174")(type "KiCad")(uri "${KIPRJMOD}/components/Audio_Jack/54-00174.pretty")(options "")(descr ""))
   (lib (name "PCB")(type "KiCad")(uri "${KIPRJMOD}/../Logo/PCB")(options "")(descr ""))
+  (lib (name "39105000000")(type "KiCad")(uri "${KIPRJMOD}/components/39105000000_Fuse/39105000000.pretty")(options "")(descr ""))
 )
